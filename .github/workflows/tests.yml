@@ -1,0 +1,21 @@
+# Tests de bout en bout : vrai serveur PHP, faux Microsoft / SharePoint / Pennylane (voir tests/test_api.py).
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: curl, openssl, zip, dom, mbstring
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pytest requests python-docx cryptography
+      - run: python -m pytest tests -q

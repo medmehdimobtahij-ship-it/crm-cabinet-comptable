@@ -1,0 +1,18 @@
+{
+  "_lisez_moi": "Copiez ce fichier en config.json (ignoré par git) et adaptez-le. Chaque clé peut aussi venir d'une variable d'environnement CRM_<CLE en majuscules> (ex. CRM_MICROSOFT_CLIENT_ID). Toutes les valeurs ci-dessous sont des exemples.",
+  "demo": false,
+  "cabinet_nom": "Cabinet Exemple",
+  "cabinet_ville": "Paris",
+  "domaine": "cabinet-exemple.fr",
+  "comptes": "claire:Claire Moreau,paul:Paul Bernard",
+  "microsoft_client_id": "",
+  "sharepoint": "https://exemple.sharepoint.com/sites/cabinet/Documents partages",
+  "sharepoint_dossiers": "Dossiers",
+  "dossier_lettres": "Lettres de mission",
+  "dossier_compta": "Comptabilite",
+  "dossier_juridique": "Juridique annuel",
+  "dossier_permanent": "Permanent",
+  "dossier_modele": "0. Modele",
+  "reseau": "",
+  "cabinet_pennylane": ""
+}

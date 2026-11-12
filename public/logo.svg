@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CRM Cabinet">
+  <rect width="64" height="64" rx="16" fill="#2F6FEB"/>
+  <rect x="15" y="34" width="8" height="15" rx="2" fill="#FFFFFF" opacity=".55"/>
+  <rect x="28" y="25" width="8" height="24" rx="2" fill="#FFFFFF" opacity=".8"/>
+  <rect x="41" y="15" width="8" height="34" rx="2" fill="#FFFFFF"/>
+</svg>
