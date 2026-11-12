@@ -7,7 +7,7 @@ on:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # le CRM tourne sur les postes Windows du cabinet (ouverture des dossiers dans l'Explorateur)
     steps:
       - uses: actions/checkout@v4
       - uses: shivammathur/setup-php@v2
