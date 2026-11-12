@@ -1,5 +1,7 @@
 # CRM Cabinet
 
+[![Tests](https://github.com/medmehdimobtahij-ship-it/crm-cabinet-comptable/actions/workflows/tests.yml/badge.svg)](https://github.com/medmehdimobtahij-ship-it/crm-cabinet-comptable/actions/workflows/tests.yml)
+
 CRM web pour un cabinet d'expertise comptable : suivi des prospects jusqu'à la signature de la lettre de mission, liste des
 clients, génération des lettres de mission Word, et liaison avec Microsoft 365 (Outlook, SharePoint) et Pennylane.
 
